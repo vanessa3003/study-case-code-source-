@@ -87,22 +87,3 @@ class TeacherResource extends Resource {
             ->bulkActions([Tables\Actions\DeleteBulkAction::make()]);
     }
 }
-
-// 4. INSTALLATION INSTRUCTIONS (README.md content)
-/*
-# Teacher Management System
-
-## Setup
-1. Run: `composer create-project laravel/laravel teacher-management`
-2. Install Filament: `composer require filament/filament:"^3.0"`
-3. Copy this file to your project
-4. Run migrations: `php artisan migrate`
-5. Access admin panel at `/admin`
-
-## Features
-- 🔒 Encrypted NIP storage
-- 📝 Full CRUD operations
-- 🔍 Searchable teacher records
-- 🗑️ Soft delete with recovery
-*/
-?>
